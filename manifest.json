@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Habblet",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.habblet.city/*"],
+      "js": ["./src/index.js"]
+    }
+  ]
+}
