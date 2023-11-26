@@ -5,7 +5,7 @@ const bnr = document.getElementById("bnr");
 const googleCenterDiv = document.getElementById("google-center-div");
 const aswift_2_host = document.getElementById("aswift_2_host");
 
-// if evita quebra de fluxo no código
+// if evita quebra de fluxo no códigoo
 function removeAd() {
   if (ad1) {
     ad1.remove();
