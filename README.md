@@ -1,9 +1,5 @@
-<<<<<<< HEAD
+<p align="center"> Remova os anúncios e a rádio com essa extensão</p>
 <p align="center">
-  <img src="https://github.com/GiovanneBohms/FiltroSteam2.0/assets/13811860/e5e0cdda-a18b-4632-a5ec-83e5047bd562" width="300">
+  <img src="https://github.com/GiovanneBohms/Extension-H/assets/13811860/90144ac9-1f43-45ad-8712-4a700a7f8bfd" width="400">
 </p>
 
-Removedor de anúncios do jogo Habblet
-=======
-# Extension-H
->>>>>>> 561ed311a0becf66798a20000770121e9b257309
