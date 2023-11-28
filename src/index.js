@@ -1,18 +1,36 @@
-
-function removeElementos(){
-  const ids = ["ad1","ad2","area_player","bnr","google-center-div","aswift_2_host"]
-
-  ids.forEach(id => {
-    const anuncio = document.getElementById(id)
-    if(anuncio){anuncio.remove()}
+function delay(tempo) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, tempo);
   });
 }
 
-function disparos (){
-  const tempos =[200,400,600,800,1000,1200,1400,1600,1800,2000]
-  tempos.forEach(e => {
-    setTimeout(removeElementos,e)
+function removeElementos() {
+  const ids = [
+    "ad1",
+    "ad2",
+    "area_player",
+    "bnr",
+    "google-center-div",
+    "aswift_2_host",
+    "cto_banner_content",
+    "ad_unit",
+  ];
+  const tags = "center";
+
+  ids.forEach((id) => {
+    const anuncio = document.getElementById(id);
+    if (anuncio) {
+      console.log(anuncio);
+      anuncio.remove();
+    }
   });
+  // console.log(window.location.href);
 }
 
-disparos()
+async function disparos() {
+  await delay(1000 * 1);
+  removeElementos();
+  disparos();
+}
+
+disparos();
